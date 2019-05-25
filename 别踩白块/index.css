@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 30px auto;
+    width: 400px;
+    height: 600px;
+    border: 1px #000 solid;
+    position: relative;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+#go {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99;
+}
+
+#go a {
+    display: block;
+    height: 100px;
+    width: 400px;
+    color: aqua;
+    text-decoration: none;
+    border-bottom: 3px dashed #eee;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#main {
+    width: 400px;
+    height: 600px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -150px;
+}
+
+.row {
+    width: 400px;
+    height: 150px;
+}
+
+.row div {
+    float: left;
+    height: 149px;
+    border-bottom: 1px solid #000;
+    width: 99px;
+    border-left: 1px solid #000;
+}
